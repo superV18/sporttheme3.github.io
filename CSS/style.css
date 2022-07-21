@@ -310,7 +310,7 @@ header
 	margin-left: 30px;
 	height: 200px;
 	border: solid 2px #35424a;
-	float: left;
+	/* float: left; */
 	border-radius: 20px;
 	display: inline-block;
 	padding-bottom: 50px;
@@ -381,7 +381,7 @@ header
 	font-style: italic;
 	display: inline-block;
 	clear: left;
-	float: left;
+	/* float: left; */
 }
 
 .name a
