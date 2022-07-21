@@ -3,7 +3,7 @@ body
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #f4f4f4;
+	background-color: #ffffff;
 }
 
 .container
@@ -23,8 +23,8 @@ p
 dd
 {
 	text-align: justify;
-	border-bottom: dashed 2px orange;
-	border-top: dashed 2px orange;
+	border-bottom: dashed 2px #FF4E46;
+	border-top: dashed 2px #FF4E46;
 }
 
 h3
@@ -192,7 +192,6 @@ form
 	margin-bottom: 10px;
 	color: #7921cc;
 }
-
 #showcase p
 {
 	font-size: 30px;
@@ -244,6 +243,12 @@ form
 	width: 90px;
 	height: 120px;
 }
+.box p,#homeh1,#combath1,#streakh1,#main-col dl dd{
+	color: #bc00ff;
+}
+#main-col dl dt{
+	color: #FF4E46;
+}
 
 aside #sidebar
 {
@@ -271,6 +276,9 @@ ul #services li
 	border: #cccccc solid 1px;
 	margin-bottom: 5px;
 	background: #e6e6e6;
+}
+#thirdshowcase .container .head h1,#thirdshowcase .container .head p,#secondshowcase .container .uph p, #secondshowcase .container .uph h1{
+	color:#7921cc;
 }
 
 footer
@@ -479,11 +487,11 @@ h3#video
 footer p a{
 	font-size: larger;
 	text-decoration: none;
-
+	color: #ffb90c;
 }
 footer p a:hover{
-	background-color: #35424a;
-	color: #38A2FF;
+	background-color: #fdfeff;
+	color:#bc00ff;
 	cursor: pointer;
 	border-radius: 5px;
 	padding: 3px;
